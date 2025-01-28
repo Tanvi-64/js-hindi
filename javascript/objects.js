@@ -4,7 +4,6 @@ const Jsuser = {
     email: "tanvikumbhar64@gmail.com"
 }
 console.log(Jsuser.email);
-Object.freeze(Jsuser)
 console.log(Jsuser["email"]);
 
 const user1={}
