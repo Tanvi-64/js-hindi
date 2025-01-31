@@ -34,3 +34,19 @@ console.log(Object.values(user1));
 console.log(Object.entries(user1));
 
 console.log(user1.hasOwnProperty('isloggedin'));
+
+const course={
+    coursename:"CSE",
+    price:10000,
+    instructor:"Tanvi"
+}
+const{coursename: n}=course// coursename is replaced by n 
+console.log(n);
+
+//JSON 
+//JSON (JavaScript Object Notation) is a lightweight data interchange format that's easy for humans to read and write, and easy for machines to parse and generate. It's often used to transmit data between a server and a web application.
+{
+    coursename:"CSE",
+    price:10000,
+    instructor:"Tanvi"
+}
