@@ -47,3 +47,4 @@ function f1(getar1){
     return getar1[3]
 }
 console.log(f1(ar1));
+kk
